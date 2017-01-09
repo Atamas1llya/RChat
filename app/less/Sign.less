@@ -1,0 +1,288 @@
+body {
+    background: url('http://pre14.deviantart.net/6e06/th/pre/f/2011/186/9/c/minecraft_dirt_wallpaper_by_thedevartist-d3l1qoj.png');
+}
+.SignUp_Overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0,1,20,.85);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.input_up {
+    width: 30%;
+    height: 5%;
+    min-width: 300px;
+    min-height: 30px;
+
+    margin: 5px;
+    background: none;
+    outline: none;
+    border: 1.5px solid white;
+
+    text-align: left;
+    font-size: 20px;
+    text-indent: 7px;
+    border-radius: 1px;
+    color: white;
+}
+.button_up {
+    width: 12%;
+    height: 6%;
+    min-width: 100px;
+    margin-top: 20px;
+    background: none;
+    border: 1.5px solid white;
+
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.button_up:hover {
+    background: rgba(255,255,255,.9);
+    color: black;
+    transition: 0.15s;
+    font-size: 18px;
+}
+
+.SignIn_Overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(0,1,20,.85);
+    z-index: 1000;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+.input_in {
+    width: 30%;
+    height: 6%;
+    min-width: 300px;
+    min-height: 40px;
+
+    margin: 5px;
+    background: none;
+    outline: none;
+    border: 1.5px solid white;
+
+    text-align: left;
+    font-size: 20px;
+    text-indent: 7px;
+    border-radius: 1px;
+    color: white;
+}
+.focused:focus {
+    background: rgba(255,255,255,.9);
+    color: black;
+}
+.button_in {
+    width: 12%;
+    height: 6%;
+    min-width: 100px;
+    margin-top: 20px;
+    background: none;
+    border: 1.5px solid white;
+
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.button_in:hover {
+    background: rgba(255,255,255,.9);
+    color: black;
+    transition: 0.15s;
+    font-size: 18px;
+}
+.GoSignUp {
+    border: none;
+    margin-top: -3px;
+    font-size: 15px;
+    width: 20%;
+    min-width: 200px;
+    margin-top: 5px;
+}
+.GoSignUp:hover {
+    background: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 15px;
+}
+
+.errTab {
+    background: rgba(150,0,0,.5);
+    opacity: 0;
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+
+    .input_in {
+        width: 70%;
+        height: 8%;
+        min-width: 300px;
+        min-height: 40px;
+
+        margin: 5px;
+        background: none;
+        outline: none;
+        border: 1.5px solid white;
+
+        text-align: left;
+        font-size: 45px;
+        text-indent: 7px;
+        border-radius: 1px;
+        color: white;
+    }
+    .input_up {
+        width: 70%;
+        height: 8%;
+        min-width: 300px;
+        min-height: 30px;
+
+        margin: 5px;
+        background: none;
+        outline: none;
+        border: 1.5px solid white;
+
+        text-align: left;
+        font-size: 45px;
+        text-indent: 7px;
+        border-radius: 1px;
+        color: white;
+    }
+    .button_in {
+        width: 32%;
+        height: 10%;
+        min-width: 200px;
+        margin-top: 60px;
+        background: none;
+        border: 1.5px solid white;
+
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+    .button_in:focus {
+        width: 32%;
+        height: 10%;
+        min-width: 100px;
+        margin-top: 60px;
+        background: white;
+        border: 1.5px solid white;
+
+        text-align: center;
+        font-size: 42px;
+        color: black;
+        cursor: pointer;
+    }
+    .button_in:hover {
+        width: 32%;
+        height: 10%;
+        min-width: 100px;
+        min-height: 100px;
+        margin-top: 60px;
+        background: white;
+        border: 1.5px solid white;
+
+        text-align: center;
+        font-size: 42px;
+        color: black;
+        cursor: pointer;
+    }
+    .button_up {
+        width: 42%;
+        height: 10%;
+        min-width: 200px;
+        min-height: 100px;
+        margin-top: 60px;
+        background: none;
+        border: 1.5px solid white;
+
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+    .button_up:hover {
+        width: 42%;
+        height: 10%;
+        min-width: 100px;
+        margin-top: 60px;
+        background: white;
+        border: 1.5px solid white;
+
+        text-align: center;
+        font-size: 42px;
+        color: black;
+        cursor: pointer;
+    }
+    .button_up:focus {
+        width: 42%;
+        height: 10%;
+        min-width: 100px;
+        margin-top: 60px;
+        background: white;
+        border: 1.5px solid white;
+
+        text-align: center;
+        font-size: 42px;
+        color: black;
+        cursor: pointer;
+    }
+    .GoSignUp {
+        border: none;
+        font-size: 30px;
+        width: 80%;
+        min-width: 200px;
+        margin-top: 0px;
+    }
+    .GoSignUp:hover {
+        border: none;
+        font-size: 30px;
+        width: 80%;
+        min-width: 200px;
+        margin-top: 0px;
+        text-decoration: underline;
+
+        background: none;
+        color: white;
+    }
+
+
+    .errTab {
+        background: rgba(150,0,0,.5);
+        opacity: 0;
+        width: 90%;
+        min-width: 300px;
+        height: auto;
+        min-height: 30px;
+    }
+
+}
